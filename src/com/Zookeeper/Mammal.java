@@ -6,6 +6,11 @@ public class Mammal {
     public Mammal(){
         this.energy = 100;
     }
+
+    public int getEnergy() {
+        return this.energy;
+    }
+
     public int displayEnergy(){
         return this.energy;
     }
